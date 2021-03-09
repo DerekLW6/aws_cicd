@@ -23,13 +23,13 @@ B.  create a python virtualenv and source it and run `make all`
 
 C. initial new eb app
 
-`eb init -p python-3.7 flask-continuous-delivery --region us-east-1`
+`eb init -p python-3.7 aws_cicd --region us-east-1` # should have used - instead of _
 
 *Optional `eb init` again to create ssh keys*
 
 D. Create remote eb instance
 
-`eb create flask-continuous-delivery-env`
+`eb create aws-cicd-env`
 
 E.  Setup AWS Code Build Project
 
