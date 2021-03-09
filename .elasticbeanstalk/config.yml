@@ -1,9 +1,9 @@
 branch-defaults:
   main:
-    environment: hello-env
+    environment: aws-cicd-env
     group_suffix: null
 global:
-  application_name: hello
+  application_name: aws_cicd
   branch: null
   default_ec2_keyname: aws-eb
   default_platform: Python 3.7
