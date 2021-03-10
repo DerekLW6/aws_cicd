@@ -23,7 +23,7 @@ B.  create a python virtualenv and source it and run `make all`
 
 C. initial new eb app
 
-`eb init -p python-3.7 aws_cicd --region us-east-1` # should have used - instead of _
+`eb init -p python-3.7 aws_cicd --region us-east-1` 
 
 *Optional `eb init` again to create ssh keys*
 
