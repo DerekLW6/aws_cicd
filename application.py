@@ -8,7 +8,7 @@ application = Flask(__name__)
 def hello():
     """Return a friendly HTTP greeting."""
     print("I am inside hello world")
-    return "Continuous Delivery Demo: With AWS Code Build"
+    return "Continuous Delivery Demo: With AWS Code Build! Created by Derek"
 
 
 @application.route("/echo/<name>")
